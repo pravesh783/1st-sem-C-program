@@ -1,0 +1,54 @@
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int a[3][3],b[3][3],i,j,k,result[3][3],r1,r2,c1,c2;
+clrscr();
+printf("enter rows and coloumn for first matrix:");
+scanf("%d%d",&r1,&c1);
+printf("enter rows and coloumn for second matrix:");
+scanf("%d%d",&r2,&c2);
+while(c1!=r2)
+{
+printf("error\n");
+printf("enter rows and column for first matrix:");
+scanf("%d%d",&r1,&c1);
+printf("enter rows and coloumn for second matrix:");
+scanf("%d%d",&r2,&c2);
+}
+printf("enter elements of matrix a\n");
+for(i=0;i<3;i++)
+for(j=0;j<3;j++)
+{
+printf("enter elements a%d%d:",i+1,j+1);
+scanf("%d",&a[i][j]);
+}
+printf("\nenter second arrays element");
+ for(i=0;i<3;i++)
+for(j=0;j<3;j++)
+{
+printf("enter elements b%d%d:",i+1,j+1);
+scanf("%d",&b[i][j]);
+}
+ for(i=0;i<3;i++)
+for(j=0;j<3;j++)
+{
+result[i][j]=0;
+}
+printf("multiplication  of matrix a and b:");
+for(i=0;i<3;i++)
+for(j=0;j<3;j++)
+for(k=0;k<3;k++)
+{
+result[i][j]+=a[i][k]*b[k][j];
+}
+printf("\noutput matrix:\n");
+for(i=0;i<3;i++)
+for(j=0;j<3;j++)
+{
+printf("result[%d][%d]=%d\n",i,j,result[i][j]);
+
+}
+getch();
+}

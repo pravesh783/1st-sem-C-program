@@ -1,0 +1,22 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int hin, eng,math,sci,computer,sum;
+float per;
+clrscr();
+printf("enter the marks of hindi\n");
+scanf("%d",&hin);
+printf("enter the marks of english\n");
+scanf("%d",&eng);
+printf("enter the marks of maths\n");
+scanf("%d",&math);
+printf("enter the marks of science\n");
+scanf("%d",&sci);
+printf("enter the marks of computer\n");
+scanf("%d",&computer);
+sum=hin+eng+math+sci+computer;
+printf(“sum of marks=%d”,sum);
+per=(hin+eng+math+sci+computer)/5;
+printf("percentage=%f",per);
+getch();

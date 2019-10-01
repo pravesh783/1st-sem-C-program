@@ -1,0 +1,28 @@
+ C PROGRAM
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int a,b,c;
+printf("enter the first no\n");
+scanf("%d",&a);
+printf("enter the second no\n");
+scanf("%d",&b);
+printf("enter the third no\n");
+scanf("%d",&c);
+if(a>b)
+{
+if(a>c)
+printf("the gretest no=%d",a);
+else
+printf("the gretest no is=%d",c);
+}
+else
+{
+if(b>c)
+printf("the gretest no is=%d",b);
+else
+printf("the gretst no is=%d",c);
+}
+getch();
+}

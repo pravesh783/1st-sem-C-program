@@ -1,0 +1,11 @@
+﻿           PROGRAM-3
+Objective-WAP to calculate the area and circumference of a circle.
+            Algorithm
+Step.1-Start
+Step.2-Input r
+Step.3-pi=3.14
+Step.4-A=pi*r*r
+Step.5-cf=2*pi*r
+Step.6-print A
+Step.7-print cf
+Step.8-stop

@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int i,num;
+int fact=1;
+clrscr();
+printf("input an positive integer value:");
+scanf("%d",&num);
+for(i=num;i>0;i--)
+{
+fact=fact*i;
+}
+printf("the factorial is%d!=%d\n",num, fact);
+
+getch();
+}

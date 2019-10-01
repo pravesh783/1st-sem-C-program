@@ -1,0 +1,36 @@
+ C PROGRAM
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+float a,b,c,g,i;
+float m;
+int n;
+clrscr();
+printf("enter the number a\n");
+scanf("%f",&a);
+printf("enter the number b\n");
+scanf("%f",&b);
+printf(" what do you want ..............\n 1 ADD\n 2 SUBTRACT\n 3 MULTIPLICATION\n 4 DIVISION\n ");
+c=a+b;
+g=a-b;
+i=a*b;
+m=a/b;
+scanf("%d",&n);
+switch(n)
+{
+case 1:
+printf("%f",c);
+break;
+case 2:
+printf("%f",g);
+break;
+case 3:
+printf("%f",i);
+break;
+case 4:
+printf("%f",m);
+break;
+}
+getch();
+}

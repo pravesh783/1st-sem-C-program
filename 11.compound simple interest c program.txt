@@ -1,0 +1,20 @@
+#include<stdio.h>
+#include<conio.h>
+#include<math.h>
+void main()
+{
+float p,r,t,i,ci,si;
+clrscr();
+printf("enter the amount:");
+scanf("%f\n",&p);
+printf("enter the rate:");
+scanf("%f\n",&r);
+printf("enter the time:");
+scanf("%f",&t);
+si=(p*r*t)/100;
+printf("simple interest=%f",si);
+i=1+r/100;
+ci=p*pow(i,t)-p;
+printf("compound interest=%f",ci);
+getch();
+}

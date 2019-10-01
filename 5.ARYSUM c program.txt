@@ -1,0 +1,21 @@
+//TO TAKE THE INPUT FOR ARRAY ELEMENTS AND PRINT THE SUM OF ELEMENTS
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int add=0,i,size;
+int sum[maxsize];
+printf("Enter size of array\n");
+scanf("%d",&size);
+printf("Enter elements of array\n");
+for(i=0;i<size;i++)
+{
+scanf("%d",&sum[i]);
+}
+for(i=0;i<size;i++)
+{
+add=add+sum[i];
+}
+printf("Sum of array is %d",add);
+getch();
+}

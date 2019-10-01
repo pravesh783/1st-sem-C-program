@@ -1,0 +1,17 @@
+﻿C PROGRAM
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+float r;
+float area,circum;
+clrscr();
+printf("enter the radius of circle r:\n");
+scanf("%f",&r);
+area=3.14*r*r;
+circum=2*3.14*r;
+printf("the area of circle is %f=area",area);
+printf("\n");
+printf("the circumference of circle is%f",circum);
+getch();
+}
