@@ -1,0 +1,21 @@
+#include<stdio.h>
+#include<conio.h>
+void swap(int*,int*);
+void main()
+{int a,b;clrscr();
+printf("enter vthe value of a:");
+scanf("%d",&a);
+printf("enter value of b:");
+scanf("%d",&b);
+printf("before swaping of variablea=%d,b=%d ",a,b);
+swap(&a,&b);
+ getch();
+ }
+  void swap(int*a,int*b)
+  {
+  int t;
+   t=*a;
+  *a=*b;
+  *b=t;
+  printf("\nafter swaping value a=%d,b=%d",*a,*b);
+  }

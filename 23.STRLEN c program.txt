@@ -1,0 +1,18 @@
+#include<stdio.h>
+#include<conio.h>
+#include<string.h>
+void main()
+{
+char str1[20],str2[20],n[20];
+int j,k;
+clrscr();
+printf("enter a string:");
+gets(str1);
+printf("after copy string:");
+strcpy(str2,str1);
+printf("%s\n",str2);
+printf("\nlentgh of string=%d",strlen(str1));
+strrev(str1);
+printf("\n reverse of string str1=%s",str1);
+getch();
+}

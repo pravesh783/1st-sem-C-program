@@ -1,0 +1,29 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int sum,i,a,sum1,sum2,j;
+int s[5];
+int b[5];
+clrscr();
+printf("enter the elements of  a\n");
+for(i=0;i<=4;i++)
+{
+
+scanf("%d",&s[i]);
+}
+printf("enter the elements of b\n");
+for(j=0;j<=4;j++)
+{
+scanf("%d",&b[j]);
+}
+for(i=0;i<=4;i++)
+{
+sum1=sum1+s[i];}
+for(j=0;j<=4;j++)
+{
+sum2=sum2+b[j];}
+sum=sum1+sum2;
+printf("sum of array=%d"sum);
+getch();
+}

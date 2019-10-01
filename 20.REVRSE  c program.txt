@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int n,m;
+clrscr();
+printf("enter the value ");
+scanf("%d",&n);
+printf("reverse of number:");
+while(n>0)
+m=n%10;
+printf("%d",m);
+n=n/10;
+getch();
+}
